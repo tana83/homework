@@ -1,0 +1,61 @@
+body{
+ padding: 1.5em;
+}
+  .row{
+   width:100%;
+   min-height:15em;
+   border:1px solid black;
+  }
+   .top{
+    float: left;
+    background-color:green;
+   }
+    .middle{
+     float:left;
+     background-color: red;
+    }
+     .bottom{
+      float:left;
+      background-color: yellow;
+     }
+      p1, p2, p3{
+       text-align: center;
+       font-size: 24px;
+       font-family: cursive;
+       color: black;
+      }
+      #pic1,#pic3,#pic4,#pic5,#pic6,#pic7,#pic10{
+       float: left;
+       padding: 5px;
+       margin-right: 3em;
+       margin-left: 3em;
+     }
+       #pic2,#pic8,#pic9,#pic10{
+        float: left;
+        padding: 3px;
+        margin: auto;
+       }
+
+        /*mobile stylings */
+         @media all and (max-width:400px) {
+          .top, .middle, .bottom{
+           float:left;
+          }
+           .row{
+            width:100%;
+            }
+             img {
+              width: 100%;
+             }
+              #pic1,#pic2,#pic3,#pic4,#pic5,#pic6,#pic7,#pic8,#pic9,#pic10{
+                margin-left: 3em;
+                margin-right: 3em;
+                padding:5px;
+              }
+           }
+               /*tablet stylings*/
+                @media all and (min-width:1310px)and (max-width:1440){
+                 .row{
+                  width:49%;
+                  }
+                }

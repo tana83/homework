@@ -1,0 +1,31 @@
+
+
+
+
+
+
+
+
+
+
+h1{
+   color:darkgreen;
+   text-align:left;
+   font-family:verdana;
+   text-transform:uppercase;
+  }
+h3{
+   color:blue;
+   text-align:left;
+   font-family:georgia;
+   text-transform:uppercase
+  }
+h2{
+   color:blue;
+   text-align:center;
+   margin:20px
+  }
+    ul.beliefs li{
+    list-style-type:square;
+    color:green;
+  }
