@@ -1,0 +1,36 @@
+.container-fluid{
+  background-color: lightblue;
+
+}
+.navbar-header{
+  font-size: 20px;
+  font-family: serif;
+  text-align: justify;
+}
+#myNavbar{
+  font-size: 22px;
+  text-align: left;
+  display: inline-block;
+
+}
+
+.container-fluid two{
+  background-color: grey;
+}
+.photo{
+  text-align: right;
+}
+p{
+  font-size: 18px;
+  font-style: arial;
+
+}
+.container{
+  margin:3px;
+  back
+
+
+}
+.navbar {
+  margin-bottom: 15px;
+}
